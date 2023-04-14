@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Noto Sans Avestan', sans-serif;
+    background-color: #f5f5dc;
+}
+
+
+.titulo{
+    text-align: center;
+    color:#ffc107;
+   
+}
+
+
+.navegacion {
+    background-color:#808080;
+    width: 100%;
+    height:80px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.navegacion li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.diseño{
+    background-color: #f5f5dc;
+    border: 5px solid #000;
+    width: 450px;
+    height: 600px;
+    display: block;
+    
+}
+
+
+.diseño-img{
+
+    background-image: url(../img/diseñoweb.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+    
+    
+}
+
+
+.aplicaciones-img{
+    background-image: url(../img/aplicacionesweb.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    
+}
+
+
+.commerce-img{
+    background-image: url(../img/Ecommerce.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
+
+#c1{
+    position:relative; 
+    top: 60px;
+    left: 50px;
+}
+
+#c2{
+    position:absolute;
+    top: 300px;
+    left: 730px;
+
+}
+
+#c3{
+    position: absolute;
+    top: 300px;
+    left: 1400px;
+
+}
+
+.sub{
+    text-align: center;
+    color: #ff0000;
+}
+
+
+.info{
+    margin: 150px;
+    text-align: center;
+
+}
+
+
+.ultimo{
+   background-color: #808080;
+   width: 100%;
+   height:150px;
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+}
+
+
+.ultimo li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ultimo a{
+    text-decoration: none;
+    
+}
