@@ -26,15 +26,17 @@ body{
     padding: 20px;
 }
 
-
-.navegacion li{
-    list-style: none;
-    display: inline-block;
+.nav{
+    display: flex;
+    justify-content: space-evenly;
 }
-
 .navegacion a{
     text-decoration: none;
-    color:#000;
+    color: #000;
+}
+
+.navegacion a:hover{
+    color: #ffc107;
 }
 
 
@@ -43,61 +45,43 @@ body{
     border: 5px solid #000;
     width: 450px;
     height: 600px;
-    display: block;
+    
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
-
 .diseño-img{
 
-    background-image: url(../img/diseñoweb.png);
-    background-size: cover;
+    background-image:url(../img/diseñoweb.jpg);
     background-position: center;
+    background-size: cover;
     height: 300px;
-    width: 400px;
-    
-    
 }
 
 
 .aplicaciones-img{
-    background-image: url(../img/aplicacionesweb.png);
-    background-position: center;
+    background-image: url(../img/aplicacionesweb.jpg);
     background-size: cover;
-    height: 400px;
-    width: 400px;
-    
+    background-position: center;
+    height: 300px;
 }
 
 
 .commerce-img{
-    background-image: url(../img/Ecommerce.png);
+    background-image: url(../img/ecommerce.jpg);
     background-position: center;
     background-size: cover;
-    height: 300px;
-    width: 400px;
+    height: 300px;    
 }
 
-#c1{
-    position:relative; 
-    top: 60px;
-    left: 50px;
+.diseño p{
+    text-align: center;
+    padding: 20px;
 }
-
-#c2{
-    position:absolute;
-    top: 300px;
-    left: 730px;
-
-}
-
-#c3{
-    position: absolute;
-    top: 300px;
-    left: 1400px;
-
-}
-
 .sub{
     text-align: center;
     color: #ff0000;
@@ -122,6 +106,7 @@ body{
 
 
 .ultimo li{
+    padding: 10px;
     list-style: none;
     display: inline-block;
     text-decoration: none;
@@ -129,5 +114,11 @@ body{
 
 .ultimo a{
     text-decoration: none;
+    font-size: 30px;
+    color: #ffc107;
     
+}
+
+.ultimo a:hover{
+    color: blue;
 }
