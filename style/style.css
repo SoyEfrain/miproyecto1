@@ -54,6 +54,8 @@ body{
     
 }
 
+
+
 .diseño-img{
 
     background-image:url(../img/diseñoweb.jpg);
@@ -122,3 +124,66 @@ body{
 .ultimo a:hover{
     color: blue;
 }
+
+
+/* PRODUCTOS */
+
+.diseño-producto{
+    background-color: #f5f5dc;
+    border: 5px solid #000;
+    width: 700px;
+    height: 600px;
+    
+    
+}
+.producto-img{
+    background-image: url(../img/producto.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+/* media queries */
+
+@media (max-width: 800px ){
+    
+    .navegacion {
+        background-color:#808080;
+        width: 100%;
+        height:80px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .diseño{
+        background-color: #f5f5dc;
+        border: 5px solid #000;
+        width: 100%;
+        height: 600px;
+        
+        
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .diseño-producto{
+        background-color: #f5f5dc;
+        border: 5px solid #000;
+        width: 100%;
+        height: 600px;
+        
+        
+    }
+}
+    
+
+
+/* Fin */
