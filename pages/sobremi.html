@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../normalize.css/normalize.css">
     <link rel="stylesheet" href="../style/style.css">
     <title>Inicio</title>
@@ -13,7 +14,7 @@
     <header class="titulo">
         <h1>Sobre Mi</h1>
    
-        <div class="navegacion">
+        <!-- <div class="navegacion">
             <nav class="nav">
                 <a href="../index.html">Inicio</a>
                 <a href="./producto.html">Producto</a>
@@ -22,10 +23,95 @@
                 <a href="./contacto.html">Contacto</a>
                 
             </nav>
-        </div>    
+        </div>     -->
 
+         <!-- Nav Inicio -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Mi Proyecto💻</a>
+    
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./producto.html">Producto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+  
+
+        <!-- Nav Fin -->
     </header>   
     
+        <section>
+                
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop-analytics" width="24"
+                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z"></path>
+                <path d="M7 20h10"></path>
+                <path d="M9 16v4"></path>
+                <path d="M15 16v4"></path>
+                <path d="M9 12v-4"></path>
+                <path d="M12 12v-1"></path>
+                <path d="M15 12v-2"></path>
+                <path d="M12 12v-1"></path>
+            </svg>
+
+            <p>Clase CoderHouse</p>
+        </section>
+
+
+
+    <main>
+        <h2 class="titulo">Sobre Mi</h2>
+        <div class="flex">
+
+            <section class="diseño-producto">
+                    <h3 class="sub">Sobre Mi</h3>
+                            
+                        
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M3 5h6v14h-6z"></path>
+                        <path d="M12 9h10v7h-10z"></path>
+                        <path d="M14 19h6"></path>
+                        <path d="M17 16v3"></path>
+                        <path d="M6 13v.01"></path>
+                        <path d="M6 16v.01"></path>
+                    </svg>
+
+
+
+
+                        <div class="sobremi-img"></div>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                                reprehenderit ducimus sequi iusto vel quo?
+                            </p>
+            </section>
+        
+    </main>
     <footer>
         <h3 class="info">Para Mas Informacion contactame a</h3>
         <div class="ultimo">
@@ -39,6 +125,10 @@
             </nav>
         </div>
     </footer>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>    
 </body>
 </html>
