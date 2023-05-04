@@ -47,8 +47,8 @@ body {
 
 .diseño-img {
   background-image: url(../img/diseñoweb.jpg);
-  background-position: center;
   background-size: cover;
+  background-position: center;
   height: 300px;
 }
 
@@ -61,8 +61,8 @@ body {
 
 .commerce-img {
   background-image: url(../img/ecommerce.jpg);
-  background-position: center;
   background-size: cover;
+  background-position: center;
   height: 300px;
 }
 
@@ -96,7 +96,7 @@ body {
   color: #ffc107;
 }
 .ultimo a:hover {
-  color: blue;
+  color: rgb(0, 0, 110);
 }
 
 /* PRODUCTOS */
