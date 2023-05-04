@@ -14,20 +14,19 @@ body{
 .titulo{
     text-align: center;
     color:#ffc107;
-   
 }
-
 
 .navbar {
     background-color:#808080;
     width: 100%;
     font-size: 20px;
-    padding: 20px;   
+    padding: 20px; 
+    
+        .nav-link{
+            color:#000 !important;
+        }
 }
 
-.navbar .nav-link{
-    color:#000 !important;
-}
 .nav-item a:hover{
     color: #ffc107 !important;
 }
@@ -35,7 +34,11 @@ body{
     background-color: #f5f5dc;
     border: 5px solid #000;
     width: 450px;
-    height: 600px;   
+    height: 600px;  
+        p{
+            text-align: center;
+            padding: 20px;
+        } 
 }
 
 .flex{
@@ -45,35 +48,31 @@ body{
 }
 
 
+@mixin medidas-img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
 
 .diseño-img{
 
     background-image:url(../img/diseñoweb.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 300px;
+    @include medidas-img()
 }
 
 
 .aplicaciones-img{
     background-image: url(../img/aplicacionesweb.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+    @include medidas-img()
 }
 
 
 .commerce-img{
     background-image: url(../img/ecommerce.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 300px;    
+    @include medidas-img()
 }
 
-.diseño p{
-    text-align: center;
-    padding: 20px;
-}
 .sub{
     text-align: center;
     color: #ff0000;
@@ -83,36 +82,33 @@ body{
 .info{
     margin: 150px;
     text-align: center;
-
 }
 
 
 .ultimo{
-   background-color: #808080;
-   width: 100%;
-   height:150px;
-   font-size: 20px;
-   padding: 10px;
-   text-align: center;
-}
-
-
-.ultimo li{
+    background-color: #808080;
+    width: 100%;
+    height:150px;
+    font-size: 20px;
     padding: 10px;
-    list-style: none;
-    display: inline-block;
-    text-decoration: none;
-}
+    text-align: center;
 
-.ultimo a{
-    text-decoration: none;
-    font-size: 30px;
-    color: #ffc107;
-    
-}
+        li{
+            padding: 10px;
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+        }
 
-.ultimo a:hover{
-    color: blue;
+        a{ 
+            text-decoration: none;
+            font-size: 30px;
+            color: #ffc107;
+        }
+
+        a:hover{
+            color: blue;
+        }
 }
 
 
@@ -177,19 +173,19 @@ body{
 
 /* Fin */
 
-
+@mixin medidas {
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
     .sobremi-img{
         background-image: url(../img/sobremi.png);
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-
+        @include medidas()
     }
 
 
     .clientes-img{
         background-image: url(../img/clientes.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 400px;
+        @include medidas()
     }
+    

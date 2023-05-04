@@ -21,7 +21,6 @@ body {
   font-size: 20px;
   padding: 20px;
 }
-
 .navbar .nav-link {
   color: #000 !important;
 }
@@ -35,6 +34,10 @@ body {
   border: 5px solid #000;
   width: 450px;
   height: 600px;
+}
+.diseño p {
+  text-align: center;
+  padding: 20px;
 }
 
 .flex {
@@ -63,11 +66,6 @@ body {
   height: 300px;
 }
 
-.diseño p {
-  text-align: center;
-  padding: 20px;
-}
-
 .sub {
   text-align: center;
   color: #ff0000;
@@ -86,20 +84,17 @@ body {
   padding: 10px;
   text-align: center;
 }
-
 .ultimo li {
   padding: 10px;
   list-style: none;
   display: inline-block;
   text-decoration: none;
 }
-
 .ultimo a {
   text-decoration: none;
   font-size: 30px;
   color: #ffc107;
 }
-
 .ultimo a:hover {
   color: blue;
 }
