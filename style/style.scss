@@ -14,7 +14,9 @@ body{
 .titulo{
     text-align: center;
     color:#ffc107;
+    text-shadow: 5px 5px 5px #f5f5dc;
 }
+
 
 .navbar {
     background-color:#808080;
@@ -83,6 +85,21 @@ body{
 .info{
     margin: 150px;
     text-align: center;
+    animation-duration: 2s;
+    animation: aparecer 2s 5s infinite alternate;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 
